@@ -7,10 +7,13 @@ This Node.js application automates responses to unread emails in a Gmail account
 1. **Clone the Repository**:
    git clone https://github.com/himanshushukla12/gmailAutomation.git
 2. **Navigate to the Project Directory**:
+   ```
    cd gmailAutomation
-3. **Install Dependencies**:
+   ```
+4. **Install Dependencies**:
+   ```
    npm install
-4. **Set Up Google API Credentials**:
+6. **Set Up Google API Credentials**:
 - Enable the Gmail API in the Google Developer Console.
 - Download `credentials.json` and place it in the project directory.
 
