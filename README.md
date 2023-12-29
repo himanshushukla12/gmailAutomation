@@ -18,6 +18,7 @@ This Node.js application automates responses to unread emails in a Gmail account
 - Download `credentials.json` and place it in the project directory.
 
 5. **Run the Application**:
+   ```
    node index.js
 Follow the prompts for Google authentication.
 
