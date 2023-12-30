@@ -1,4 +1,27 @@
 # Gmail Auto-Reply System
+## Setting Up Google API Credentials
+
+1. **Google Cloud Console**:
+   - Visit [Google Cloud Console](https://console.cloud.google.com/).
+   - Create a new project or select an existing one.
+
+2. **Enable Gmail API**:
+   - Navigate to "APIs & Services > Dashboard".
+   - Click "ENABLE APIS AND SERVICES", search for "Gmail API" and enable it.
+
+3. **Create Credentials**:
+   - Go to "APIs & Services > Credentials".
+   - Click "Create credentials" and select "OAuth client ID".
+   - Set the application type, then add your redirect URIs.
+
+4. **Download Credentials**:
+   - Once created, download the JSON file.
+   - Place this file in your project directory and rename it to `credentials.json`.
+
+5. **Install Google API Node.js Client**:
+   - Run `npm install googleapis`.
+
+After completing these steps, your application will be ready to authenticate using Google API credentials.
 
 ## Description
 This Node.js application automates responses to unread emails in a Gmail account. It's specifically designed to handle emails while you're away, responding only to those without previous replies.
