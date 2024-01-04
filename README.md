@@ -1,3 +1,6 @@
+<img src="https://raw.githubusercontent.com/himanshushukla12/gmailAutomation/main/p1.png" alt="Image" width="400">
+
+
 # Gmail Auto-Reply System
 ## Setting Up Google API Credentials
 
